@@ -23,14 +23,14 @@
 	<!-- Input form for adding income to budget, pops up after clicking Add
 	Income button -->
 	<form title="Add Income" action="">
-		<p>Amount: <input type="text"></p>
-		<p>Date: <input type="date"></p>
+		<p>Amount: <input type="text" aria-label="Enter income amount"></p>
+		<p>Date: <input type="date" aria-label="Enter date of income"></p>
 	</form>
 	<!-- Expenses form for adding expenses to budget, pops up after clicking Add
 	Expenses button -->
 	<form title="Add Expenses" action="">
-		<p>Amount: <input type="text"></p>
-		<p>Date Due: <input type="date"></p>
+		<p>Amount: <input type="text" aria-label="Enter amount of expense"></p>
+		<p>Date Due: <input type="date" aria-label="Enter when expense is due"></p>
 	</form>
 </div>
 </body>
