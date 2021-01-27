@@ -21,17 +21,22 @@
 		</div>
 
 	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<button type="button" class="btn btn-success rounded-pill">Add Income</button>
-			</div>
-			<div class="col">
-				<button type="button" class="btn btn-danger rounded-pill">Add Expenses</button>
-			</div>
+
+	<div class="row mx-auto">
+		<div class="col">
+			<button type="button" class="btn btn-success rounded-pill" data-toggle="modal" data-target="#incomeForm">Add
+				Income
+			</button>
 		</div>
 
+		<div class="col mx-auto">
+			<button type="button" class="btn btn-danger rounded-pill" data-toggle="modal" data-target="#expenseForm">Add
+				Expenses
+			</button>
+		</div>
 
+		<?php include 'templates/income-form.php' ?>
+		<?php include 'templates/expense-form.php' ?>
 	</div>
 </div>
 <?php include 'bs4js.php' ?>
