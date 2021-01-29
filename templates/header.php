@@ -22,21 +22,22 @@
 
 	</nav>
 
-	<div class="row mx-auto">
+	<div class="container row">
 		<div class="col">
-			<button type="button" class="btn btn-success rounded-pill" data-toggle="modal" data-target="#incomeForm">Add
+			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#incomeForm">Add
 				Income
 			</button>
 		</div>
 
-		<div class="col mx-auto">
-			<button type="button" class="btn btn-danger rounded-pill" data-toggle="modal" data-target="#expenseForm">Add
+		<div class="col">
+			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#expenseForm">Add
 				Expenses
 			</button>
 		</div>
-
 		<?php include 'templates/income-form.php' ?>
 		<?php include 'templates/expense-form.php' ?>
 	</div>
+
+
 </div>
 <?php include 'bs4js.php' ?>
