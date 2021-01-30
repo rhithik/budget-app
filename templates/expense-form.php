@@ -23,7 +23,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<label for="expenseTitle">Expense Type</label>
+				<label for="expenseTitle">Name</label>
 				<input type="text" class="form-control" id="expenseTitle">
 				<label for="expenseAmt">Expense Amount</label>
 				<input type="text" class="form-control" id="expenseAmt">

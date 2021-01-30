@@ -23,8 +23,18 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<label for="incomeTitle">Income Type</label>
-				<input type="text" class="form-control" id="incomeTitle">
+<!--				<label for="incomeTitle">Income Type</label>-->
+				<div class="dropdown">
+					<button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Income Type
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Weekly</a>
+						<a class="dropdown-item" href="#">Bi-Weekly</a>
+						<a class="dropdown-item" href="#">Monthly</a>
+						<a class="dropdown-item" href="#">Irregular</a>
+					</div>
+				</div>
 				<label for="incomeAmt">Income Amount</label>
 				<input type="text" class="form-control" id="incomeAmt">
 				<label for="incomeDate">Date</label>
