@@ -25,40 +25,44 @@
 
 <div class="btn-container">
 	<div>
-		<button type="button" class="income-btn" data-toggle-modal="#income_modal">Add
-			Income
-		</button>
-		<div class="modal" id="income_modal">
-			<div class="backdrop">
-				<div class="content">
-					<form action="">
-						<h2>Add Income</h2>
-						<p>Type: <input type="text"></p>
-						<p>Amount: <input type="text"></p>
-						<p>Date: <input type="date"></p>
-					</form>
-				</div>
-			</div>
-		</div>
+		<a href="./templates/income-form.php">
+			<button type="button" class="income-btn" data-toggle-modal="#income_modal">Add
+				Income
+			</button>
+		</a>
+		<!--		<div class="modal" id="income_modal">-->
+		<!--			<div class="backdrop">-->
+		<!--				<div class="content">-->
+		<!--					<form action="">-->
+		<!--						<h2>Add Income</h2>-->
+		<!--						<p>Type: <input type="text"></p>-->
+		<!--						<p>Amount: <input type="text"></p>-->
+		<!--						<p>Date: <input type="date"></p>-->
+		<!--					</form>-->
+		<!--				</div>-->
+		<!--			</div>-->
 	</div>
+</div>
 
-	<div>
+<div>
+	<a href="./templates/expense-form.php">
 		<button type="button" class="income-btn" data-toggle-modal="#expense_modal">Add
 			Expenses
 		</button>
-		<div class="modal" id="expense_modal">
-			<div class="backdrop">
-				<div class="content">
-					<form action="">
-						<h2>Add Expense</h2>
-						<p>Type: <input type="text"></p>
-						<p>Amount: <input type="text"></p>
-						<p>Date: <input type="date"></p>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+	</a>
+	<!--		<div class="modal" id="expense_modal">-->
+	<!--			<div class="backdrop">-->
+	<!--				<div class="content">-->
+	<!--					<form action="">-->
+	<!--						<h2>Add Expense</h2>-->
+	<!--						<p>Type: <input type="text"></p>-->
+	<!--						<p>Amount: <input type="text"></p>-->
+	<!--						<p>Date: <input type="date"></p>-->
+	<!--					</form>-->
+	<!--				</div>-->
+	<!--			</div>-->
+	<!--		</div>-->
+	<!--	</div>-->
 	<!--		--><?php //include 'templates/income-form.php' ?>
 	<!--		--><?php //include 'templates/expense-form.php' ?>
 </div>

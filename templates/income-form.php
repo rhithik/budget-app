@@ -3,10 +3,10 @@
 	Income button -->
 <form class="container">
 	<div class="form-group">
-		<label for="incomeForm">Income Amount</label>
+		<label for="incomeForm">Type</label>
 		<input type="text" class="form-control" id="incomeForm">
-	</div>
-	<div class="form-group">
+		<label for="incomeForm">Amount</label>
+		<input type="text" class="form-control" id="incomeForm">
 		<label for="incomeDate">Date</label>
 		<input type="date" class="form-control" id="incomeDate">
 	</div>
