@@ -2,12 +2,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Budget App</title>
-	<?php include 'bs4css.php' ?>
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <div class="container">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a href="#" class="navbar-brand">Budget App</a>
+	<nav class="navbar">
+		<a href="#" class="logo">Budget App</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 		        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -21,23 +21,46 @@
 		</div>
 
 	</nav>
+</div>
 
-	<div class="container row">
-		<div class="col">
-			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#incomeForm">Add
-				Income
-			</button>
+<div class="btn-container">
+	<div>
+		<button type="button" class="income-btn" data-toggle-modal="#income_modal">Add
+			Income
+		</button>
+		<div class="modal" id="income_modal">
+			<div class="backdrop">
+				<div class="content">
+					<form action="">
+						<h2>Add Income</h2>
+						<p>Type: <input type="text"></p>
+						<p>Amount: <input type="text"></p>
+						<p>Date: <input type="date"></p>
+					</form>
+				</div>
+			</div>
 		</div>
-
-		<div class="col">
-			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#expenseForm">Add
-				Expenses
-			</button>
-		</div>
-		<?php include 'templates/income-form.php' ?>
-		<?php include 'templates/expense-form.php' ?>
 	</div>
 
-
+	<div>
+		<button type="button" class="income-btn" data-toggle-modal="#expense_modal">Add
+			Expenses
+		</button>
+		<div class="modal" id="expense_modal">
+			<div class="backdrop">
+				<div class="content">
+					<form action="">
+						<h2>Add Expense</h2>
+						<p>Type: <input type="text"></p>
+						<p>Amount: <input type="text"></p>
+						<p>Date: <input type="date"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--		--><?php //include 'templates/income-form.php' ?>
+	<!--		--><?php //include 'templates/expense-form.php' ?>
 </div>
-<?php include 'bs4js.php' ?>
+
+<script src="/script.js"></script>
