@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Budget App</title>
-	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class="container">
@@ -63,4 +63,4 @@
 	<!--		--><?php //include 'templates/expense-form.php' ?>
 </div>
 
-<script src="/script.js"></script>
+
