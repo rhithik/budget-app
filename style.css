@@ -15,10 +15,17 @@ body {
 }
 
 nav {
-    display: flex;
+    /*display: flex;*/
 }
 
+.form-group {
+    display: flex;
+
+}
+
+/*
 .modal {
+
     display: none;
 }
 
@@ -35,3 +42,5 @@ nav {
     z-index: 999;
     background-color: rgba(0, 0, 0, .2);
 }
+*/
+

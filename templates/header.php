@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,9 +13,9 @@
 <div class="container">
 	<nav class="navbar">
 		<a href="#" class="logo">Budget App</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNav"
 		        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggle-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
@@ -25,11 +30,13 @@
 
 <div class="btn-container">
 	<div>
-		<a href="./templates/income-form.php">
-			<button type="button" class="income-btn" data-toggle-modal="#income_modal">Add
+		<a href="/templates/income-form.php">
+			<button type="button" class="income-btn">Add
 				Income
 			</button>
 		</a>
+
+
 		<!--		<div class="modal" id="income_modal">-->
 		<!--			<div class="backdrop">-->
 		<!--				<div class="content">-->
@@ -45,8 +52,8 @@
 </div>
 
 <div>
-	<a href="./templates/expense-form.php">
-		<button type="button" class="income-btn" data-toggle-modal="#expense_modal">Add
+	<a href="/templates/expense-form.php">
+		<button type="button" class="expense-btn">Add
 			Expenses
 		</button>
 	</a>
@@ -63,8 +70,6 @@
 	<!--			</div>-->
 	<!--		</div>-->
 	<!--	</div>-->
-	<!--		--><?php //include 'templates/income-form.php' ?>
-	<!--		--><?php //include 'templates/expense-form.php' ?>
 </div>
 
 
